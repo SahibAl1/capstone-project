@@ -1,0 +1,179 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-image:url(./img/gif/8c5a6ae295d7b6e73adaa9ae68b3b8fd.gif);
+    background-color: #c300ff;
+    color: #eeeeee;
+    padding: 20px;
+    text-align: center;
+    
+}
+.fa.fa-twitter{
+    color: #eeeeee;
+
+}
+.fa.fa-instagram{
+    color: rgb(252, 255, 255);  
+    }
+
+.fa.fa-linkedin{
+    color: rgb(253, 254, 255);
+}
+.fa.fa-github{
+    color: rgb(252, 254, 255);
+}
+.round{
+    position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+        width: 25%;
+        height: 25%;
+        object-fit: cover;
+        border-radius: 50%;
+}
+
+.shadow {
+    text-shadow: 2px 2px 4px rgb(187, 6, 223);
+    /* Horizontal offset: 2px, Vertical offset: 2px, Blur radius: 4px, Shadow color: semi-transparent black */
+  }
+  .text{
+        text-shadow: 2px 2px 4px rgb(187, 6, 223);
+        /* Horizontal offset: 2px, Vertical offset: 2px, Blur radius: 4px, Shadow color: semi-transparent black */
+      
+  }
+  
+.pofile > .introduction {
+    margin: 25;
+    padding: 25;
+    text-align: center;
+   
+   flex-direction: row;
+   justify-content: center;
+   background-color: #d0bdf4;
+   font-family: 'Quicksand', sans-serif;
+   
+}
+span {
+    color: rgb(200, 6, 243);
+}
+.introduction > .car {
+    position: relative;
+    overflow: hidden;
+    border-radius: 100%;
+    width: 55%;
+    height: 55%;
+          object-fit: cover;
+          
+}
+.skills > .work {
+    margin: 25;
+    padding: 25;
+    text-align: center;
+   flex-direction: row;
+   justify-content: center;
+   background-color: #d0bdf4;
+}
+.work > .avtar{
+    position: relative;
+    overflow: hidden;
+    border-radius: 100%;
+          width: 55%;
+          height: 55%;
+          object-fit: cover;
+          font-family: 'Quicksand', sans-serif;
+          
+}
+section{
+        padding: 20px;
+        background-color: #fff;
+        margin: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.Design {
+    margin: 25;
+    padding: 25;
+    text-align: center;
+   flex-direction: row;
+   justify-content: center;
+   background-color: #d0bdf4;
+}
+.Design > .gif {
+  
+    position: relative;
+    overflow: hidden;
+    border-radius: 1000%;
+          width: 65%;
+          height: 65%;
+          object-fit: cover;
+          font-family: 'Quicksand', sans-serif;
+}
+
+  .button {
+    background-color: #40026a; /* Background color */
+    border: none; /* No border */
+    color: #89f8f0; /* Text color */
+    padding: 10px 20px; /* Padding inside the button */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30px; /* Rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth color transition on hover */
+  }
+  .button:hover {
+    background-color: #7e4d90; /* Change the background color on hover */
+  }
+  
+  .contact{
+    margin: 25;
+    padding: 25;
+    text-align: center;
+   flex-direction: row;
+   justify-content: center;
+   background-color: #d0bdf4;
+  }
+  .footer{
+    margin: 25;
+    padding: 25;
+    text-align: center;
+   flex-direction: row;
+   justify-content: center;
+   background-color: #d0bdf4;}
+
+   /* For screens up to 768px wide (e.g., mobile devices) */
+@media (max-width: 768px) {
+    header {
+        font-size: 24px;
+    }
+    section {
+        padding: 10px;
+        margin: 10px;
+    }
+}
+
+/* For screens 769px and wider (e.g., tablets and desktops) */
+@media (min-width: 769px) {
+    header {
+        font-size: 36px;
+    }
+    section {
+        padding: 20px;
+        margin: 20px;
+    }
+}
+
+/* Add more CSS styling as needed */
